@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="floating-bg">
+  <div class="circle" style="top:10%; left:15%;"></div>
+  <div class="circle" style="top:20%; left:70%;"></div>
+  <div class="circle" style="top:30%; left:25%;"></div>
+  <div class="circle" style="top:40%; left:80%;"></div>
+  <div class="circle" style="top:50%; left:35%;"></div>
+  <div class="circle" style="top:60%; left:60%;"></div>
+  <div class="circle" style="top:70%; left:10%;"></div>
+  <div class="circle" style="top:80%; left:90%;"></div>
+  <div class="circle" style="top:85%; left:40%;"></div>
+  <div class="circle" style="top:15%; left:55%;"></div>
+</div>
+   <header>
+  <div class="container">
+    <img src="assets/images/profile.jpg.webp" alt="Profile" class="header-pic" />
+    <h1 class="logo">    Keerthana M</h1>
+  <nav class="container">
+    <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="resume.pdf">Resume</a></li>
+    <li><a href="https://github.com/keerthana19-m" target="_blank">
+      <img src="assets/images/github.png" alt="GitHub" class="icon" />
+    </a></li>
+    <li><a href="https://linkedin.com/in/https://www.linkedin.com/in/keerthana-m-6a2b13368?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+      <img src="assets/images/linkedin.png" alt="LinkedIn" class="icon" />
+    </a></li>
+    </ul>
+  </nav>
+</header>
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <p>I'm a final-year Bachelor of Computer Applications (BCA) student with a strong interest in web development and problem-solving. I have hands-on experience with Python, HTML, and CSS, and I enjoy building clean and responsive user interfaces. Coding is not just a skill for me — it’s something I genuinely love doing. I'm always eager to learn new technologies and take on real-world challenges that help me grow as a developer.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-column">
+      <h3>Frontend</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+      </ul>
+    </div>
+    <div class="skill-column">
+      <h3>Backend</h3>
+      <ul>
+        <li>Node.js</li>
+        <li>Python</li>
+      </ul>
+    </div>
+    <div class="skill-column">
+      <h3>Other</h3>
+      <ul>
+        <li>VS Code</li>
+        <li>Netlify</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project">
+  <h3>1. Student Dashboard (Internship Project)</h3>
+  <p>Developed a responsive student dashboard as part of my internship at Shri Gowri Software Solutions. The project was deployed using Netlify and involved frontend development under the guidance of my mentor.</p>
+  <ul>
+    <li>Technologies: HTML, CSS, Bootstrap, JavaScript</li>
+    <li>Designed multiple sections including profile, academic info, and results</li>
+    <li>Used VS Code with Live Server for development</li>
+  </ul>
+  <a href="https://keeru19.netlify.app" target="_blank">Live Demo - Click here</a>
+    <h3>2. Facial Emotion Detection</h3>
+    <p>This project uses computer vision and deep learning to detect human emotions from facial expressions in real time using OpenCV and a trained CNN model.</p>
+    <ul>
+      <li>Technologies: Python, OpenCV, Keras, TensorFlow</li>
+      <li>Used Haar cascades for face detection</li>
+      <li>Trained model on FER-2013 dataset</li>
+    </ul>
+  </div>
+</section>
+  </section>
+
+  <section id="experience">
+  <h2>Experience</h2>
+
+  <div class="experience-item">
+    <h3>Frontend Developer Intern</h3>
+    <p><strong>Shri Gowri Software Solutions</strong> — Apr 2025 to May 2025</p>
+    <ul>
+      <li>Developed a student dashboard web application using HTML, CSS, Bootstrap, and JavaScript</li>
+      <li>Designed responsive UI components and sections like Profile, Results, and Contact</li>
+      <li>Deployed the project using Netlify with live previews using Live Server in VS Code</li>
+      <li>Received mentorship from Latha B (HOD) at Vijaya College</li>
+      <li>Project Link: <a href="https://keeru19.netlify.app" target="_blank">keeru19.netlify.app</a></li>
+    </ul>
+  </div>
+
+</section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Keerthana M</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html> 
